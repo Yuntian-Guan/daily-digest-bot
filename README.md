@@ -21,12 +21,16 @@ This is an automated personal assistant that collects the information I care abo
     *   `schedule` - For task scheduling.
 *   **Environment**: Local development (will be deployed to a cloud server in Phase 2).
 
+
 ## Project Structure
+```
 daily-digest-bot/
-   ├── bot.py # Main logic script
-   ├── config.example.py # Configuration file template (Do not submit real passwords!)
-   ├── requirements.txt # Project dependency list
-   └── README.md # This document
+├── bot.py              # Main logic script
+├── config.example.py   # Configuration file template (Do not submit real passwords!)
+├── requirements.txt    # Project dependency list
+├── README.md           # This document
+└── .gitignore          # Ignored document of Git
+```
 
 ## Getting Started
 1.  **Clone the repo**: `git clone https://github.com/Yuntian-Guan/daily-digest-bot.git`
