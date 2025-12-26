@@ -8,7 +8,7 @@
 This is an automated personal assistant that collects the information I care about every day (such as weather and Hong Kong stock index), and compiles it into a concise summary to send to me, allowing me to have all the information at my fingertips when I start my day.
 
 ## Current Features (Phase 1)
-- Fetches **real-time weather** for 【你的城市，如: Hong Kong】 from a public API.
+- Fetches **real-time weather** for Hong Kong from a public API.
 - Fetches **major Hong Kong stock indices** (e.g., HSI, HSCEI).
 - Sends a formatted **email digest** to my personal inbox at a scheduled time.
 - Runs reliably as a **local Python script**.
@@ -23,10 +23,10 @@ This is an automated personal assistant that collects the information I care abo
 
 ## Project Structure
 daily-digest-bot/
-├── bot.py # Main logic script
-├── config.example.py # Configuration file template (Do not submit real passwords!)
-├── requirements.txt # Project dependency list
-└── README.md # This document
+   ├── bot.py # Main logic script
+   ├── config.example.py # Configuration file template (Do not submit real passwords!)
+   ├── requirements.txt # Project dependency list
+   └── README.md # This document
 
 ## Getting Started
 1.  **Clone the repo**: `git clone https://github.com/Yuntian-Guan/daily-digest-bot.git`
